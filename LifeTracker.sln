@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34526.213
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LifeTrackerAPI", "LifeTrackerAPI\LifeTrackerAPI.csproj", "{E19FE6AD-7886-4A77-BD14-71DF564E25F6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LifeTrackerDataService", "LifeTrackerDataService\LifeTrackerDataService.csproj", "{1ACC4FB2-4EA7-4EBB-B6C5-611ECD0FBCEA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LifeTrackerEntities", "LifeTrackerEntities\LifeTrackerEntities.csproj", "{15BF8D68-A842-44BF-9D80-5DF19408F8F7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LifeTrackerAuthentication", "LifeTrackerAuthentication\LifeTrackerAuthentication.csproj", "{A409E569-063D-4A58-8406-6F45C59C7C2B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DA25FB2E-8BA1-43E2-9AAE-EE6D8E5683E5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "piplines", "piplines", "{35FB3754-6ABA-46DD-96AF-666A50681C30}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "deployment", "deployment", "{65E33B8C-9455-474B-B508-64DF60ED388A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "infrastructure", "infrastructure", "{C54C000D-2B2D-4E51-9512-F71B864E56B0}"
+	ProjectSection(SolutionItems) = preProject
+		main.tf = main.tf
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E19FE6AD-7886-4A77-BD14-71DF564E25F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E19FE6AD-7886-4A77-BD14-71DF564E25F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E19FE6AD-7886-4A77-BD14-71DF564E25F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E19FE6AD-7886-4A77-BD14-71DF564E25F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1ACC4FB2-4EA7-4EBB-B6C5-611ECD0FBCEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1ACC4FB2-4EA7-4EBB-B6C5-611ECD0FBCEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1ACC4FB2-4EA7-4EBB-B6C5-611ECD0FBCEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1ACC4FB2-4EA7-4EBB-B6C5-611ECD0FBCEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15BF8D68-A842-44BF-9D80-5DF19408F8F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15BF8D68-A842-44BF-9D80-5DF19408F8F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15BF8D68-A842-44BF-9D80-5DF19408F8F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15BF8D68-A842-44BF-9D80-5DF19408F8F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A409E569-063D-4A58-8406-6F45C59C7C2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A409E569-063D-4A58-8406-6F45C59C7C2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A409E569-063D-4A58-8406-6F45C59C7C2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A409E569-063D-4A58-8406-6F45C59C7C2B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E19FE6AD-7886-4A77-BD14-71DF564E25F6} = {DA25FB2E-8BA1-43E2-9AAE-EE6D8E5683E5}
+		{1ACC4FB2-4EA7-4EBB-B6C5-611ECD0FBCEA} = {DA25FB2E-8BA1-43E2-9AAE-EE6D8E5683E5}
+		{15BF8D68-A842-44BF-9D80-5DF19408F8F7} = {DA25FB2E-8BA1-43E2-9AAE-EE6D8E5683E5}
+		{A409E569-063D-4A58-8406-6F45C59C7C2B} = {DA25FB2E-8BA1-43E2-9AAE-EE6D8E5683E5}
+		{65E33B8C-9455-474B-B508-64DF60ED388A} = {35FB3754-6ABA-46DD-96AF-666A50681C30}
+		{C54C000D-2B2D-4E51-9512-F71B864E56B0} = {35FB3754-6ABA-46DD-96AF-666A50681C30}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9160BC1E-C4B5-45B5-B634-1708DA3D04B7}
+	EndGlobalSection
+EndGlobal
